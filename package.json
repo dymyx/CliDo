@@ -1,0 +1,27 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "Simple ToDo CLI app",
+  "main": "dist/index.js",
+  "bin": {
+    "todo": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "inquirer": "^12.10.0"
+  }
+}
